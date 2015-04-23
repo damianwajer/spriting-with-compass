@@ -1,0 +1,14 @@
+// sprite 1
+@import "compass/utilities/sprites";
+@import "icons/*.png";
+$icons-sprite-dimensions: true;
+@include all-icons-sprites;
+
+// sprite 2
+@import "icons/icons-2/*.png";
+$icons-2-sprite-dimensions: true;
+@include all-icons-2-sprites;
+
+.icon {
+  display: inline-block;
+}

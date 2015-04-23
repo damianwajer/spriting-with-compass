@@ -1,0 +1,25 @@
+@import "modules/_mixins";
+@import "modules/_helpers";
+@import "modules/_sprite";
+
+html {
+  background-color: #efefef;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.container {
+  margin: 2em auto;
+  padding: 2em;
+  width: 50%;
+  @include border-radius(15px);
+  background-color: #fff;
+}
+
+.btn-icon {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+code {
+  font-family: monospace, monospace;
+}
